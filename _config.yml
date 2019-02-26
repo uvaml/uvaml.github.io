@@ -5,7 +5,6 @@ plugins: [jekyll-paginate,jekyll-gist,pygments.rb]
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
 title:            AIML Seminar @ UVa

@@ -1,0 +1,27 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+plugins: [jekyll-paginate,jekyll-gist,pygments.rb]
+
+# Permalinks
+permalink:        pretty
+# relative_permalinks: true
+
+# Setup
+title:            AIML Seminar @ UVa
+tagline:          ''
+description:      'The weekly Artificial Intelligence and Machine Learning Seminar in UVa'
+url:              http://uvaml.github.io
+baseurl:          /
+
+author:
+  name:           'Yangfeng Ji'
+  url:            https://yangfengji.net
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/uvaml.github.io

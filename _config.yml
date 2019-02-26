@@ -4,7 +4,7 @@ highlighter:      rouge
 plugins: [jekyll-paginate,jekyll-gist]
 
 # Permalinks
-permalink:        date
+permalink:        pretty
 
 # Setup
 title:            AIML Seminar @ UVa
@@ -12,6 +12,7 @@ tagline:          ''
 description:      'The Weekly Artificial Intelligence and Machine Learning Seminar in UVa'
 url:              http://uvaml.github.io
 baseurl:          /
+# baseurl:	  http://127.0.0.1:4000
 
 author:
   name:           'Yangfeng Ji'

@@ -4,7 +4,7 @@ highlighter:      rouge
 plugins: [jekyll-paginate,jekyll-gist]
 
 # Permalinks
-permalink:        pretty
+permalink:        date
 
 # Setup
 title:            AIML Seminar @ UVa

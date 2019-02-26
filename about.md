@@ -1,9 +1,8 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
-
-# About the AIML seminar
 
 The weekly Artificial Intelligence and Machine Learning (AIML) seminar provides a forum for our local scholars to present their current research on artificial intelligence, machine learning, and related fields.
 

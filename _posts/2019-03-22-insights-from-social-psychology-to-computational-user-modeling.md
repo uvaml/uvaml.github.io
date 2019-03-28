@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Insights: from Social Psychology to Computational User Modeling
+title: Insights from Social Psychology to Computational User Modeling
 ---
 
 **[Lin Gong](https://www.cs.virginia.edu/~lg5bt/)**<br>

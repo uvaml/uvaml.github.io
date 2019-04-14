@@ -3,7 +3,7 @@ layout: post
 title: How to Train a More Interpretable Neural Text Classifier? 
 ---
 
-**Hanjie Chen**<br>
+**[Hanjie Chen](http://www.cs.virginia.edu/~hc9mx/index.html)**<br>
 Department of Computer Science<br>
 University of Virginia
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Drill-down: Interactive Retrieval of Complex Scenes using Natural Language Queries
+title: Drill-down - Interactive Retrieval of Complex Scenes using Natural Language Queries
 ---
 
 [Fuwen Tan](http://www.cs.virginia.edu/~ft3ex/)<br>

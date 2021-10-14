@@ -6,7 +6,6 @@ title: Upcoming Talks
 <br>
 
 | Time          | Speaker                                                                         | Affiliation        | Topic                                                             |
-|               |                                                                                 |                    |                                                                   |
 |---------------|---------------------------------------------------------------------------------|--------------------|-------------------------------------------------------------------|
 | Oct. 22, 2021 | [Matthew Dwyer](https://matthewbdwyer.github.io/)                               | UVa                | Distribution-aware Validation and Verification of Neural Networks |
 | Nov. 5, 2021  | [Guru Guruganesh](https://scholar.google.com/citations?user=lWrAwrwAAAAJ&hl=en) | Google             | TBA                                                               |

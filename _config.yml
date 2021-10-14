@@ -4,13 +4,13 @@
 title:               'UVa AIML Seminar'
 tagline:             'The AI and Machine Learning Seminar @ UVa'
 description:         'The AI and Machine Learning Seminar @ University of Virginia'
-url:                 'http://minicomp.github.io'
+url:                 'https://uvaml.github.io'
 baseurl:             ''
 
 # About/contact
 author:
-  name:              Yangfeng
-  url:               ''
+  name:              Yangfeng Ji
+  url:               'https://yangfengji.net'
   email:             ''
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown

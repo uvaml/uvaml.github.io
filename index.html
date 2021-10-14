@@ -1,37 +1,31 @@
 ---
 layout: default
-title: Home
+title: "UVa AIML Seminar"
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+<div class="toc">
+  <h2>Seminar Talks</h2>
+  <ul class="texts">
+  {% for item in site.texts %}
 
-    {{ post.content }}
-  </div>
+  <li class="text-title"> {{item.time}}
+    <a href={{ item.homepage }}>{{ item.author }}</a> : 
+    <a href="{{ site.baseurl }}{{ item.url }}">
+      {{ item.title }}
+    </a>
+  </li>
   {% endfor %}
+  </ul>
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
+<hr>
+
+<div class="introduction">
+  <!-- <h1>hi.</h1> -->
+<p>
+  The UVa Artificial Intelligence and Machine Learning (AIML) seminar provides a communication platform for our colleagues and friends who are working on artificial intelligence, machine learning, and related fields.
+<br>
+  If you have any question about this seminar, please contact the organizers, Yangfeng Ji (yangfeng@virginia.edu) and Haifeng Xu (hx4ad@virginia.edu).
+</p>
 </div>

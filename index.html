@@ -7,17 +7,20 @@ title: "UVa AIML Seminar"
 <div class="toc">
   <h2>Seminar Talks</h2>
   <ul class="texts">
-  {% for item in site.texts %}
-
-  <li class="text-title"> {{item.time}}
-    <a href={{ item.homepage }}>{{ item.author }}</a> : 
-    <a href="{{ site.baseurl }}{{ item.url }}">
-      {{ item.title }}
-    </a>
-  </li>
-  {% endfor %}
+    {% assign sorted = site.texts | sort:"time" | reverse %}
+    {% for item in sorted %}
+    
+    <li class="text-title"> {{item.time}}
+      <a href={{ item.homepage }}>{{ item.author }}</a> : 
+      <a href="{{ site.baseurl }}{{ item.url }}"> {{ item.title }}</a>
+    </li>
+    {% endfor %}
   </ul>
 </div>
+
+<p>
+  Information about the <a href="{{ site.baseurl}}/future/">upcoming talks</a>.
+</p>
 
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 

@@ -4,7 +4,6 @@ title: Past Talks
 ---
 
 <div class="toc">
-  <h2>Past Talks</h2>
   <ul class="texts">
     {% assign sorted = site.pasttalks | sort:"time" | reverse %}
     {% for item in sorted %}

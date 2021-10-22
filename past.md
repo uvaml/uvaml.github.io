@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Past Talks
+title: "Past Talks"
 ---
 
 <div class="toc">

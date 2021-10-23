@@ -7,7 +7,7 @@ title: "UVa AIML Seminar"
 <div class="toc">
   <h2>Upcoming Talks</h2>
   <ul class="texts">
-    {% assign sorted = site.texts | sort:"time" | reverse %}
+    {% assign sorted = site.texts | sort:"time" %}
     {% for item in sorted %}
     
     <li class="text-title"> {{item.time}}

@@ -6,12 +6,22 @@ layout: default
   <center><h1 class="text-title">{{ page.title }}</h1></center>
   <br>
   <p align="center">
+    {% if page.image != "" %}
     <img src={{ page.image }} width=200>
+    {% endif %}
+    {% if page.homepage == "" %}
+    {{page.author}}
+    {% else %}
     <a href={{ page.homepage }}>{{ page.author }}</a>
+    {% endif %}
     <br>{{ page.org }}
     <br>
     <br>Time: {{ page.time }}, {{ page.hour }}
+    {% if page.loc == "" %}
+    <br>Location: <a href={{ page.zoom }}>Zoom</a>
+    {% else %}
     <br>Location: {{ page.loc }} and <a href={{ page.zoom }}>Zoom</a>
+    {% endif %}
   </p>
   <p class="byline">
   </p>

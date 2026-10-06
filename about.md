@@ -10,6 +10,7 @@ If you have any question about this seminar, please contact the organizers
 - [Yangfeng Ji](https://yangfengji.net/)
 - [Tom Fletcher](https://engineering.virginia.edu/faculty/tom-fletcher) 
 - [Yen-Ling Kuo](https://yenlingkuo.com/)
+- [Zhe Zeng](https://zzeng.me/)
 
 
 ### Previous Organizing Committee 
